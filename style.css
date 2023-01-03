@@ -16,9 +16,47 @@
 .logo-text h2{
     font-size: 30px;
 }
+.dropdown{
+    display: block;
+    background-color: #12326B;
+    text-align: center;
+}
+.home-button{
+    border: none;
+    outline: none;
+    background-color: #12326B;
+    color: white;
+}
+.jewelry-button{
+    border: none;
+    outline: none;
+    background-color: #12326B;
+    color: white;
+}
+.about-button{
+    border: none;
+    outline: none;
+    background-color: #12326B;
+    color: white;
+}
+.promo-button{
+    border: none;
+    outline: none;
+    background-color: #12326B;
+    color: white;
+}
+.member-button{
+    border: none;
+    outline: none;
+    background-color: #12326B;
+    color: white;
+}
+.dropdown button{
+    margin: 0 5rem;
+}
 .menu{
     background-color: #12326B;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Alegreya SC', Times, serif;
     font-size: 20px;
     display: flex;
     color: white;
