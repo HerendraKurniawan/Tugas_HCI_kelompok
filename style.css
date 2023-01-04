@@ -2,6 +2,8 @@
     display: flex;
     background-color: #12326B;
     padding: 1px 0 ;
+    width: auto;
+    height: auto;
 }
 .logo-text{
     display: block;
@@ -9,6 +11,8 @@
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
     margin: 0 40rem;
+    width: auto;
+    height: auto;
 }
 .logo-text h1{
     font-size: 60px;
@@ -16,43 +20,8 @@
 .logo-text h2{
     font-size: 30px;
 }
-.dropdown{
-    display: block;
-    background-color: #12326B;
-    text-align: center;
-}
-.home-button{
-    border: none;
-    outline: none;
-    background-color: #12326B;
+.menu a{
     color: white;
-}
-.jewelry-button{
-    border: none;
-    outline: none;
-    background-color: #12326B;
-    color: white;
-}
-.about-button{
-    border: none;
-    outline: none;
-    background-color: #12326B;
-    color: white;
-}
-.promo-button{
-    border: none;
-    outline: none;
-    background-color: #12326B;
-    color: white;
-}
-.member-button{
-    border: none;
-    outline: none;
-    background-color: #12326B;
-    color: white;
-}
-.dropdown button{
-    margin: 0 5rem;
 }
 .menu{
     background-color: #12326B;
@@ -61,8 +30,18 @@
     display: flex;
     color: white;
     justify-content: center;
+    width: auto;
+    height: auto;
 }
 .menu span{
     margin: 0 5rem;
+    width: auto;
 }
-
+.bottom{
+    text-align: center;
+    display: block;
+    font-family: 'Alegreya SC', Times, serif;
+    background-color: #12326B;
+    color: white;
+    height: max-content;
+}
