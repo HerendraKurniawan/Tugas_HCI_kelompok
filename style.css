@@ -1,7 +1,7 @@
 .logo{
     display: flex;
     background-color: #12326B;
-    padding: 1px 0 ;
+    padding: 1px auto;
     width: auto;
     height: auto;
 }
@@ -10,7 +10,7 @@
     color: white;
     font-family: 'Times New Roman', Times, serif;
     text-align: center;
-    margin: 0 40rem;
+    margin: 0 auto; 
     width: auto;
     height: auto;
 }
@@ -44,4 +44,39 @@
     background-color: #12326B;
     color: white;
     height: max-content;
+}
+
+.slideshow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+.image{
+    position: relative;
+    display: flex;
+}
+.prev-img,.next-img{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+}
+.prev-img{
+    left: 0;
+}
+.next-img{
+    right: 0;
+}
+.obj-img{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    display: inline-block;
 }
