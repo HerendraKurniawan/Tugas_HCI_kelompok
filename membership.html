@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Golden Circle - Ways you indulge yourself</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="membership.js"></script>
+    <div class="logo">
+        <img src="./assets/image 1.png">
+        <div class="logo-text">
+            <h1>Golden Circle</h1>        
+            <h2>Since 1984</h2>        
+        </div>
+    </div>
+    <div class="menu">
+        <a href="./index.html"><span>Home</span></a>
+        <a href="./jewelry.html"><span>Jewelry Page</span></a>
+        <a href="./aboutUs.html"><span>About us</span></a>
+        <a href="./promotion.html"><span>Promotion</span></a>
+        <a href="./membership.html"><span>Membership Page</span></a>
+    </div>
+</head>
+
+<body>
+<div class="registration">
+    <h1>Registration: </h1>
+    <form action="" id="form" onsubmit="return validateForm()">
+        <div class="input-name">
+            <label for="name">Name: </label> 
+            <Input id= "name" type="text" placeholder=""></Input>
+        </div>
+        <div class="input-email">
+            <label for="email">Email: </label> 
+            <Input id="email"type="email" placeholder=""></Input>
+        </div>
+        <div class="input-gender">
+            Gender:
+            <div class="radio-btn">
+                <label for="male">Male: </label> 
+                <input id="gender"type="radio" name="gender" value="male">
+            </div>
+            <div class="radio-btn">
+                <label for="female">Female: </label> 
+                <input id="gender" type="radio" name="gender" value="female">
+            </div>
+        </div>
+        <div class="input-password">
+            <label for="password">Password: </label> 
+            <Input id="password" type="password" placeholder=""></Input>
+        </div>
+        <div class="confirm-password">
+            <label for="CPass">Confirm Password: </label> 
+            <Input id="CPass"type="password" placeholder=""></Input>
+        </div>
+        <div class="input-city">
+            <label for="city">City: </label> 
+            in
+            <select id="city" name="city">
+                <option value="">--Please choose an option--</option>
+                <option value="jakarta" >Jakarta</option>
+                <option value="new-york">New York</option>
+                <option value = "berlin">London</option>
+                <option value = "berlin">Berlin</option>
+                <option value = "paris">Paris</option>
+                <option value = "tokyo">Tokyo</option>
+                <option value = "other">Other</option>
+            </select>
+        </div>
+        <div class="input-address">
+            <label for="addr">Address: </label> 
+            <Input id="addr" type="text" placeholder=""></Input>
+        </div>
+
+        <button type="submit" onclick="validateForm()">Confirm</button>
+    </form>
+</div>
+</body>
+
+<footer>
+    <div class="bottom">
+        <h2>@2022 Golden Circle</h2>
+    </div>
+</footer>
+</html>
