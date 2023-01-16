@@ -84,3 +84,45 @@
     margin: 0 auto;
     right: 100%;
 }
+.registration{
+    font-family: 'Alegreya SC', Times, serif;
+    font-size: 20px;
+    margin-top: auto;
+    margin-bottom: 20px;
+}
+.gender{
+    display:flex;
+}
+form{
+    font-family: 'Alegreya SC', Times, serif;
+    margin-top: 20px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    margin-right: 4000px;
+}
+form input{
+    width: 300px;
+    font-size: 20px;
+}
+
+button{
+    width: 300px;
+    font-size: 20px;
+    margin-top: 20px;
+    text-align: center;
+    margin: 20px;
+    position: relative;
+    align-items: center;
+
+}
+select{
+    width: 310px;
+    height: 30px;
+}
+
+.radio-btn{
+    position: relative;
+    display: flex;
+    width: 18rem;
+    justify-content: space-between;
+}
