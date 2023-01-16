@@ -81,6 +81,63 @@
     display: inline-block;
 }
 
+.yellowIcon img{
+    width: 50px;
+    height: 60px;
+    display: flex;
+    margin-left:auto;
+    margin-right: auto;
+    margin-top: 20px;
+}
+
+.yellow{
+    display: flex;
+    align-items: center;
+	justify-content: space-evenly;
+}
+
+.yellow img{
+    width: 200px;
+    height: 200px;
+}
+
+.whiteIcon img{
+    width: 50px;
+    height: 60px;
+    display: flex;
+    margin-left:auto;
+    margin-right: auto;
+}
+
+.white{
+    display: flex;
+    align-items: center;
+	justify-content: space-evenly;
+}
+
+.white img{
+    width: 200px;
+    height: 200px;
+}
+
+.jewelry h5{
+    text-align: center;
+    text-decoration: underline;
+    font-family: 'Alegreya SC', Times, serif;
+    color: #12326B;
+}
+
+.promo img{
+    max-width:100%;
+    max-height:100%;
+}
+
+.promoDown{
+    display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
 .about{
     text-align: center;
     display: block;
@@ -111,15 +168,4 @@
 
 .aboutPic:hover{
     background-image: url(./assets/toko2.jpg);
-}
-
-.promo img{
-    max-width:100%;
-    max-height:100%;
-}
-
-.promoDown{
-    display: flex;
-	flex-direction: row;
-	align-items: center;
 }
