@@ -8,7 +8,7 @@
 .logo-text{
     display: block;
     color: white;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Alegreya SC', Times, serif;
     text-align: center;
     margin: 0 auto; 
     width: auto;
@@ -47,168 +47,40 @@
 }
 
 .slideshow{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
-    height: 100%;
-}
-.image{
+    width:100%;
     position: relative;
-    display: flex;
 }
-.prev-img,.next-img{
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    width: 50px;
-    height: 50px;
-    cursor: pointer;
-}
-.prev-img{
-    left: 0;
-}
-.next-img{
-    right: 0;
-}
-.obj-img{
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: auto;
-    height: auto;
-    object-fit: contain;
-    display: inline-block;
-}
-
-.yellowIcon img{
-    width: 50px;
-    height: 60px;
-    display: flex;
-    margin-left:auto;
-    margin-right: auto;
-    margin-top: 20px;
-}
-
-.yellow{
-    display: flex;
-    align-items: center;
-	justify-content: space-evenly;
-}
-
-.yellow img{
-    width: 200px;
-    height: 200px;
-}
-
-.whiteIcon img{
-    width: 50px;
-    height: 60px;
-    display: flex;
-    margin-left:auto;
-    margin-right: auto;
-}
-
-.white{
-    display: flex;
-    align-items: center;
-	justify-content: space-evenly;
-}
-
-.white img{
-    width: 200px;
-    height: 200px;
-}
-
-.jewelry h5{
-    text-align: center;
-    text-decoration: underline;
-    font-family: 'Alegreya SC', Times, serif;
-    color: #12326B;
-}
-
-.promo img{
-    max-width:100%;
-    max-height:100%;
-}
-
-.promoDown{
-    display: flex;
-	flex-direction: row;
-	align-items: center;
-}
-
-.about{
-    text-align: center;
+.promotion{
     display: block;
     font-family: 'Alegreya SC', Times, serif;
-    color: #12326B;
-    font-size: 20px;
-    text-decoration: underline;  
+    font-size = 15px;
+    justify-content: center;
 }
-
-.aboutDesc{
-    font-family: 'Alegreya SC', Times, serif;
-    color: black;
-    font-size: 20px;
-    text-align: left;
-    display: flex;
-    flex-direction: column; 
+.promotion img{
     align-items: center;
+    margin: 0 auto;
+    display: block;
 }
-
-.aboutPic{
-    background-image: url(./assets/toko.jpg);
-    width: 530px;
-    height: 300px;
-    background-size: cover;
-    margin-left:auto;
-    margin-right: auto;
-}
-
-.aboutPic:hover{
-    background-image: url(./assets/toko2.jpg);
-}
-
-.registration{
-    font-family: 'Alegreya SC', Times, serif;
-    font-size: 20px;
-    margin-top: auto;
-    margin-bottom: 20px;
-}
-.gender{
-    display:flex;
-}
-form{
-    font-family: 'Alegreya SC', Times, serif;
-    margin-top: 20px;
-    font-size: 20px;
-    margin-bottom: 20px;
-    margin-right: 4000px;
-}
-form input{
-    width: 300px;
-    font-size: 20px;
-}
-
-button{
-    width: 300px;
-    font-size: 20px;
-    margin-top: 20px;
+.promotion h2{
     text-align: center;
-    margin: 20px;
-    position: relative;
-    align-items: center;
-
 }
-select{
-    width: 310px;
-    height: 30px;
-}
-
-.radio-btn{
-    position: relative;
+.item-promotion{
     display: flex;
-    width: 18rem;
-    justify-content: space-between;
+}
+.item1{
+    align-items: left;
+    display: block;
+    margin : 0 auto;
+    left: 100%;
+}
+.item2{
+    align-items: center;
+    display: block;
+    margin : 0 auto
+}
+.item3{
+    align-items: right;
+    display: block;
+    margin: 0 auto;
+    right: 100%;
 }
